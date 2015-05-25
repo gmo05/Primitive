@@ -1,0 +1,914 @@
+2015-03-20 09:05:30  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 09:05:30  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 09:05:30 CST 2015]; root of context hierarchy
+2015-03-20 09:05:30  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 09:05:30  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 09:05:30  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 09:05:30  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 09:05:32  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 09:05:32  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 09:05:32  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 09:05:32  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 09:05:32  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@5af20642: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,portalService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,portalPageMapper]; root of factory hierarchy
+2015-03-20 09:05:33  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 09:05:33  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 09:05:34  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898emjkgj1bkuh07|4688a919, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898emjkgj1bkuh07|4688a919, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 09:05:34  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 09:05:35  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4627 ms
+2015-03-20 09:05:35  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 09:05:35  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 09:05:35  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 09:05:35  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 09:05:35  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 09:05:35  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 09:05:35  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 09:05:35  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 10:58:43  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 10:58:43  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 10:58:43 CST 2015]; root of context hierarchy
+2015-03-20 10:58:43  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 10:58:43  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 10:58:43  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 10:58:43  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 10:58:45  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 10:58:45  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 10:58:45  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 10:58:45  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 10:58:45  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@10b5b606: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper]; root of factory hierarchy
+2015-03-20 10:58:46  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 10:58:46  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 10:58:47  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898eql5v35j3gq6|71c0ee20, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898eql5v35j3gq6|71c0ee20, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 10:58:47  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 10:58:47  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4593 ms
+2015-03-20 10:58:47  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 10:58:47  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 10:58:47  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 10:58:47  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 10:58:47  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 10:58:47  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 10:58:47  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 10:58:47  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 11:13:30  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 11:13:31  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 11:13:31 CST 2015]; root of context hierarchy
+2015-03-20 11:13:31  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 11:13:31  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 11:13:31  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 11:13:31  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 11:13:33  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 11:13:33  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 11:13:33  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 11:13:33  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 11:13:33  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@50fab0d3: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper]; root of factory hierarchy
+2015-03-20 11:13:34  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 11:13:34  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 11:13:35  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898er472r14k484e|dbe0560, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898er472r14k484e|dbe0560, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 11:13:35  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 11:13:35  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4844 ms
+2015-03-20 11:13:35  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 11:13:36  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 11:13:36  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 11:13:36  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 11:13:36  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 11:13:36  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 11:13:36  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 11:13:36  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 11:19:13  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 11:19:13  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 11:19:13 CST 2015]; root of context hierarchy
+2015-03-20 11:19:13  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 11:19:13  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 11:19:13  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 11:19:13  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 11:19:15  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 11:19:15  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 11:19:15  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 11:19:15  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 11:19:15  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@952e91e: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper]; root of factory hierarchy
+2015-03-20 11:19:16  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 11:19:16  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 11:19:17  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hgekg998erbj4q1ihft40|d87f5f4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hgekg998erbj4q1ihft40|d87f5f4, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 11:19:17  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 11:19:17  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4437 ms
+2015-03-20 11:19:18  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 11:19:18  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 11:19:18  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 11:19:18  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 11:19:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 11:19:18  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 11:19:18  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 11:19:18  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 13:06:53  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 13:06:53  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 13:06:53 CST 2015]; root of context hierarchy
+2015-03-20 13:06:53  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 13:06:53  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 13:06:53  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 13:06:53  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 13:06:55  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 13:06:55  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 13:06:55  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 13:06:55  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 13:06:55  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@760c9bd2: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,authService,deviceService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper]; root of factory hierarchy
+2015-03-20 13:06:56  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 13:06:56  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 13:06:57  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898ev5zk81aodq0f|dbe0560, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898ev5zk81aodq0f|dbe0560, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 13:06:57  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 13:06:57  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4462 ms
+2015-03-20 13:06:57  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 13:06:57  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 13:06:57  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 13:06:57  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 13:06:57  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 13:06:58  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 13:06:58  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 13:06:58  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 14:18:13  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 14:18:13  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 14:18:13 CST 2015]; root of context hierarchy
+2015-03-20 14:18:13  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 14:18:13  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 14:18:13  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 14:18:13  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 14:18:15  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 14:18:15  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 14:18:16  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 14:18:16  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 14:18:16  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4bb47df0: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,authService,deviceService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper]; root of factory hierarchy
+2015-03-20 14:18:16  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 14:18:16  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 14:18:17  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898expqaq19qxycx|701d431d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898expqaq19qxycx|701d431d, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 14:18:17  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 14:18:17  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4281 ms
+2015-03-20 14:18:18  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 14:18:18  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 14:18:18  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 14:18:18  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 14:18:18  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 14:18:18  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 14:18:18  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 14:18:18  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 16:22:12  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 16:22:12  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 16:22:12 CST 2015]; root of context hierarchy
+2015-03-20 16:22:12  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 16:22:12  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 16:22:13  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 16:22:13  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 16:22:15  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 16:22:15  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 16:22:16  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 16:22:16  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 16:22:16  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e419f34: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 16:22:16  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 16:22:16  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 16:22:18  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f25772qt9zbh|32b21adc, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f25772qt9zbh|32b21adc, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 16:22:18  INFO DefaultListableBeanFactory:444 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@1e419f34: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 16:22:18 ERROR ContextLoader:319 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'acAction': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'systemService' must be of type [com.auth.service.device.DeviceService], but was actually of type [com.auth.service.system.SystemService]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'systemService' must be of type [com.auth.service.device.DeviceService], but was actually of type [com.auth.service.system.SystemService]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:361)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:442)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:416)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:150)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:303)
+	... 23 more
+2015-03-20 16:26:25  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 16:26:25  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 16:26:25 CST 2015]; root of context hierarchy
+2015-03-20 16:26:25  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 16:26:25  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 16:26:25  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 16:26:25  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 16:26:27  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 16:26:27  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 16:26:28  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 16:26:28  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 16:26:28  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4aa2fbc7: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 16:26:28  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 16:26:28  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 16:26:30  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f2alj0c1kxrl|29db47b9, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f2alj0c1kxrl|29db47b9, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 16:26:30  INFO DefaultListableBeanFactory:444 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@4aa2fbc7: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 16:26:30 ERROR ContextLoader:319 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'acAction': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'systemService' must be of type [com.auth.service.device.DeviceService], but was actually of type [com.auth.service.system.SystemService]
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.springframework.beans.factory.BeanNotOfRequiredTypeException: Bean named 'systemService' must be of type [com.auth.service.device.DeviceService], but was actually of type [com.auth.service.system.SystemService]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:361)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:442)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:416)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:150)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:303)
+	... 23 more
+2015-03-20 16:30:33  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 16:30:34  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 16:30:34 CST 2015]; root of context hierarchy
+2015-03-20 16:30:34  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 16:30:34  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 16:30:34  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 16:30:34  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 16:30:36  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 16:30:36  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 16:30:36  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 16:30:36  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 16:30:36  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@54fdcd95: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 16:30:37  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 16:30:37  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 16:30:38  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f2fxb11qd4mdg|4083bcde, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f2fxb11qd4mdg|4083bcde, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 16:30:39  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 16:30:39  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 5193 ms
+2015-03-20 16:30:39  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 16:30:39  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 16:30:39  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 16:30:39  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 16:30:39  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 16:30:39  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 16:30:39  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 16:30:39  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 16:58:56  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 16:58:56  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 16:58:56 CST 2015]; root of context hierarchy
+2015-03-20 16:58:56  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 16:58:56  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 16:58:56  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 16:58:56  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 16:58:58  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 16:58:58  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 16:58:58  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 16:58:58  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 16:58:58  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@75f61ca1: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 16:58:59  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 16:58:59  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 16:59:00  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f3gejymyfxyy|24600c0, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f3gejymyfxyy|24600c0, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 16:59:01  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 16:59:01  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 5357 ms
+2015-03-20 16:59:01  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 16:59:01  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 16:59:01  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 16:59:01  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 16:59:01  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 16:59:01  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 16:59:01  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 16:59:01  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 17:03:06  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 17:03:06  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 17:03:06 CST 2015]; root of context hierarchy
+2015-03-20 17:03:06  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 17:03:06  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 17:03:06  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 17:03:06  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 17:03:08  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 17:03:08  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 17:03:08  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 17:03:08  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 17:03:08  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@2250c953: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 17:03:09  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 17:03:09  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 17:03:11  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f3lro41hkk7vl|30f0a3a5, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f3lro41hkk7vl|30f0a3a5, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 17:03:11  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 17:03:11  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 5397 ms
+2015-03-20 17:03:11  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 17:03:11  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 17:03:11  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 17:03:11  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 17:03:11  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 17:03:11  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 17:03:11  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 17:03:11  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 17:14:16  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 17:14:16  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 17:14:16 CST 2015]; root of context hierarchy
+2015-03-20 17:14:16  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 17:14:16  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 17:14:16  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 17:14:16  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 17:14:18  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 17:14:18  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 17:14:18  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 17:14:18  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 17:14:19  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@754fe44d: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 17:14:19  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 17:14:19  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 17:14:21  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f404p1lopcdv|4ce120b2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f404p1lopcdv|4ce120b2, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 17:14:21  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 17:14:21  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 5125 ms
+2015-03-20 17:14:21  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 17:14:21  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 17:14:21  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 17:14:21  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 17:14:21  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 17:14:21  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 17:14:21  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 17:14:21  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 17:19:35  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 17:19:35  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 17:19:35 CST 2015]; root of context hierarchy
+2015-03-20 17:19:35  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 17:19:35  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 17:19:36  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 17:19:36  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 17:19:37  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 17:19:38  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 17:19:38  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 17:19:38  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 17:19:38  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@b3d2e9: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 17:19:38  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 17:19:38  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 17:19:40  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f46z3j1u0jv0u|3e581f9e, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f46z3j1u0jv0u|3e581f9e, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 17:19:40  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 17:19:40  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 5132 ms
+2015-03-20 17:19:41  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 17:19:41  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 17:19:41  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 17:19:41  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 17:19:41  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 17:19:41  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 17:19:41  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 17:19:41  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 17:21:45  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 17:21:45  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 17:21:45 CST 2015]; root of context hierarchy
+2015-03-20 17:21:45  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 17:21:45  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 17:21:46  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 17:21:46  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 17:21:48  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 17:21:48  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 17:21:48  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 17:21:48  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 17:21:48  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@9134b1a: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 17:21:48  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 17:21:48  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 17:21:50  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f49rii7qmaz4|2a40cc7d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f49rii7qmaz4|2a40cc7d, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 17:21:50  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 17:21:51  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 5329 ms
+2015-03-20 17:21:51  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 17:21:51  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 17:21:51  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 17:21:51  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 17:21:51  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 17:21:51  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 17:21:51  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 17:21:51  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 17:25:10  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 17:25:11  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 17:25:11 CST 2015]; root of context hierarchy
+2015-03-20 17:25:11  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 17:25:11  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 17:25:11  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 17:25:11  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 17:25:13  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 17:25:13  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 17:25:13  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 17:25:13  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 17:25:13  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@448054ba: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 17:25:13  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 17:25:14  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 17:25:15  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f4e5qc19lkwyq|5c647fc4, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f4e5qc19lkwyq|5c647fc4, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 17:25:15  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 17:25:16  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 5074 ms
+2015-03-20 17:25:16  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 17:25:16  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 17:25:16  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 17:25:16  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 17:25:16  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 17:25:16  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 17:25:16  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 17:25:16  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-20 17:43:44  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-20 17:43:44  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Fri Mar 20 17:43:44 CST 2015]; root of context hierarchy
+2015-03-20 17:43:44  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-20 17:43:44  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-20 17:43:44  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-20 17:43:44  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-20 17:43:46  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-20 17:43:46  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-20 17:43:47  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-20 17:43:47  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-20 17:43:47  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@3cb92e21: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,baseDao,accountService,authService,deviceService,systemService,userService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,exceptionLogMapper,smsMapper,systemConfigMapper,terminalUserAuthLogMapper,terminalUserMapper,userBlacklistMapper,userWhitelistMapper]; root of factory hierarchy
+2015-03-20 17:43:47  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-20 17:43:47  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-20 17:43:48  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898f5210g1e1405p|1cc3d413, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898f5210g1e1405p|1cc3d413, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-20 17:43:49  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-20 17:43:49  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 5331 ms
+2015-03-20 17:43:49  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-20 17:43:49  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-20 17:43:49  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-20 17:43:49  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-20 17:43:49  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-20 17:43:49  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-20 17:43:49  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-20 17:43:49  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully

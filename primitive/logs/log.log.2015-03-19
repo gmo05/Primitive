@@ -1,0 +1,527 @@
+2015-03-19 11:52:51  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-19 11:52:51  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Thu Mar 19 11:52:51 CST 2015]; root of context hierarchy
+2015-03-19 11:52:51  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-19 11:52:51  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-19 11:52:51  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-19 11:52:51  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-19 11:52:53  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-19 11:52:53  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-19 11:52:53  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-19 11:52:53  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-19 11:52:53  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@bd125cb: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,portalService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,portalPageMapper]; root of factory hierarchy
+2015-03-19 11:52:54  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-19 11:52:54  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-19 11:52:55  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898dd2xgv1121qi1|4516249d, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898dd2xgv1121qi1|4516249d, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-19 11:52:55  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-19 11:52:56  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4933 ms
+2015-03-19 11:52:56  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-19 11:52:56  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-19 11:52:56  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-19 11:52:56  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-19 11:52:56  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-19 11:52:56  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-19 11:52:56  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-19 11:52:56  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-19 11:53:50  WARN Dispatcher:64 - Could not find action or result: /account/home.htm
+There is no Action mapped for namespace [/account] and action name [home] associated with context path []. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:37)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:552)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2015-03-19 12:58:29  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-19 12:58:29  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Thu Mar 19 12:58:29 CST 2015]; root of context hierarchy
+2015-03-19 12:58:29  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-19 12:58:29  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-19 12:58:30  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-19 12:58:30  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-19 12:58:31  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-19 12:58:31  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-19 12:58:32  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-19 12:58:32  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-19 12:58:32  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@70e1e17c: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,portalService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,portalPageMapper]; root of factory hierarchy
+2015-03-19 12:58:32  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-19 12:58:32  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-19 12:58:33  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898dffc8n572us3|71c9a1f, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898dffc8n572us3|71c9a1f, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-19 12:58:33  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-19 12:58:34  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4375 ms
+2015-03-19 12:58:34  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-19 12:58:34  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-19 12:58:34  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-19 12:58:34  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-19 12:58:34  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-19 12:58:34  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-19 12:58:34  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-19 12:58:34  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-19 12:59:35  WARN Dispatcher:64 - Could not find action or result: /account/home.htm
+There is no Action mapped for namespace [/account] and action name [home] associated with context path []. - [unknown location]
+	at com.opensymphony.xwork2.DefaultActionProxy.prepare(DefaultActionProxy.java:185)
+	at org.apache.struts2.impl.StrutsActionProxy.prepare(StrutsActionProxy.java:63)
+	at org.apache.struts2.impl.StrutsActionProxyFactory.createActionProxy(StrutsActionProxyFactory.java:37)
+	at com.opensymphony.xwork2.DefaultActionProxyFactory.createActionProxy(DefaultActionProxyFactory.java:58)
+	at org.apache.struts2.dispatcher.Dispatcher.serviceAction(Dispatcher.java:552)
+	at org.apache.struts2.dispatcher.ng.ExecuteOperations.executeAction(ExecuteOperations.java:77)
+	at org.apache.struts2.dispatcher.ng.filter.StrutsPrepareAndExecuteFilter.doFilter(StrutsPrepareAndExecuteFilter.java:99)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:88)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:243)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:210)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:222)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:123)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:502)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:171)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:100)
+	at org.apache.catalina.valves.AccessLogValve.invoke(AccessLogValve.java:953)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:118)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:408)
+	at org.apache.coyote.http11.AbstractHttp11Processor.process(AbstractHttp11Processor.java:1041)
+	at org.apache.coyote.AbstractProtocol$AbstractConnectionHandler.process(AbstractProtocol.java:603)
+	at org.apache.tomcat.util.net.JIoEndpoint$SocketProcessor.run(JIoEndpoint.java:310)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+2015-03-19 17:55:22  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-19 17:55:22  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Thu Mar 19 17:55:22 CST 2015]; root of context hierarchy
+2015-03-19 17:55:22  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-19 17:55:22  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-19 17:55:22  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-19 17:55:22  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-19 17:55:24  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-19 17:55:24  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-19 17:55:24  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-19 17:55:24  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-19 17:55:24  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@73fc286: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,portalService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,portalPageMapper]; root of factory hierarchy
+2015-03-19 17:55:25  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-19 17:55:25  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-19 17:55:25  INFO DefaultListableBeanFactory:444 - Destroying singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@73fc286: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,portalService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,portalPageMapper]; root of factory hierarchy
+2015-03-19 17:55:25 ERROR ContextLoader:319 - Context initialization failed
+org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'acAction': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'portalService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'portalPageMapper' defined in file [D:\Tools\source_tree\my_git\portal3-x\portal\target\classes\com\access\portal\dao\portal\PortalPageMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': : Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+Related cause: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'deviceMapper' defined in file [D:\Tools\source_tree\my_git\portal3-x\portal\target\classes\com\access\portal\dao\device\DeviceMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': : Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'portalService': Injection of resource dependencies failed; nested exception is org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'portalPageMapper' defined in file [D:\Tools\source_tree\my_git\portal3-x\portal\target\classes\com\access\portal\dao\portal\PortalPageMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': : Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:306)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:442)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:416)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:150)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:303)
+	... 23 more
+Caused by: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'portalPageMapper' defined in file [D:\Tools\source_tree\my_git\portal3-x\portal\target\classes\com\access\portal\dao\portal\PortalPageMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': : Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:442)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:416)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:150)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:303)
+	... 36 more
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1194)
+	... 49 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:430)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1479)
+	... 59 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:106)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:89)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:424)
+	... 62 more
+Caused by: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:113)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:88)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement(XMLConfigBuilder.java:317)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:104)
+	... 64 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:100)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:63)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:111)
+	... 67 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:114)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:127)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:98)
+	... 71 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:188)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:87)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:254)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:110)
+	... 73 more
+Related cause:
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'deviceMapper' defined in file [D:\Tools\source_tree\my_git\portal3-x\portal\target\classes\com\access\portal\dao\device\DeviceMapper.class]: Unsatisfied dependency expressed through bean property 'sqlSessionFactory': : Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1209)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getTypeForFactoryBean(AbstractBeanFactory.java:1368)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.getTypeForFactoryBean(AbstractAutowireCapableBeanFactory.java:720)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.isTypeMatch(AbstractBeanFactory.java:523)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doGetBeanNamesForType(DefaultListableBeanFactory.java:357)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.getBeanNamesForType(DefaultListableBeanFactory.java:335)
+	at org.springframework.beans.factory.BeanFactoryUtils.beanNamesForTypeIncludingAncestors(BeanFactoryUtils.java:187)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:895)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1194)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1101)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:442)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:416)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:150)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:198)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.autowireResource(CommonAnnotationBeanPostProcessor.java:442)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.getResource(CommonAnnotationBeanPostProcessor.java:416)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor$ResourceElement.getResourceToInject(CommonAnnotationBeanPostProcessor.java:550)
+	at org.springframework.beans.factory.annotation.InjectionMetadata$InjectedElement.inject(InjectionMetadata.java:150)
+	at org.springframework.beans.factory.annotation.InjectionMetadata.inject(InjectionMetadata.java:87)
+	at org.springframework.context.annotation.CommonAnnotationBeanPostProcessor.postProcessPropertyValues(CommonAnnotationBeanPostProcessor.java:303)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.populateBean(AbstractAutowireCapableBeanFactory.java:1116)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:519)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:626)
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:932)
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:479)
+	at org.springframework.web.context.ContextLoader.configureAndRefreshWebApplicationContext(ContextLoader.java:389)
+	at org.springframework.web.context.ContextLoader.initWebApplicationContext(ContextLoader.java:294)
+	at org.springframework.web.context.ContextLoaderListener.contextInitialized(ContextLoaderListener.java:112)
+	at org.apache.catalina.core.StandardContext.listenerStart(StandardContext.java:4939)
+	at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:5434)
+	at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:150)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1559)
+	at org.apache.catalina.core.ContainerBase$StartChild.call(ContainerBase.java:1549)
+	at java.util.concurrent.FutureTask$Sync.innerRun(FutureTask.java:334)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:166)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1145)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:615)
+	at java.lang.Thread.run(Thread.java:724)
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'sqlSessionFactory' defined in class path resource [app-context-database.xml]: Invocation of init method failed; nested exception is org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1482)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:521)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:458)
+	at org.springframework.beans.factory.support.AbstractBeanFactory$1.getObject(AbstractBeanFactory.java:295)
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:223)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:292)
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:194)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.findAutowireCandidates(DefaultListableBeanFactory.java:910)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:853)
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:768)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireByType(AbstractAutowireCapableBeanFactory.java:1194)
+	... 65 more
+Caused by: org.springframework.core.NestedIOException: Failed to parse config resource: class path resource [MyBatis-Configuration.xml]; nested exception is org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:430)
+	at org.mybatis.spring.SqlSessionFactoryBean.afterPropertiesSet(SqlSessionFactoryBean.java:336)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1541)
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1479)
+	... 75 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error parsing SQL Mapper Configuration. Cause: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:106)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parse(XMLConfigBuilder.java:89)
+	at org.mybatis.spring.SqlSessionFactoryBean.buildSqlSessionFactory(SqlSessionFactoryBean.java:424)
+	... 78 more
+Caused by: java.lang.RuntimeException: Error parsing Mapper XML. Cause: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:113)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.parse(XMLMapperBuilder.java:88)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.mapperElement(XMLConfigBuilder.java:317)
+	at org.apache.ibatis.builder.xml.XMLConfigBuilder.parseConfiguration(XMLConfigBuilder.java:104)
+	... 80 more
+Caused by: org.apache.ibatis.builder.BuilderException: Error resolving class. Cause: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:100)
+	at org.apache.ibatis.builder.xml.XMLStatementBuilder.parseStatementNode(XMLStatementBuilder.java:63)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:128)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.buildStatementFromContext(XMLMapperBuilder.java:121)
+	at org.apache.ibatis.builder.xml.XMLMapperBuilder.configurationElement(XMLMapperBuilder.java:111)
+	... 83 more
+Caused by: org.apache.ibatis.type.TypeException: Could not resolve type alias 'com.access.portal.model.PortalPage'.  Cause: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:114)
+	at org.apache.ibatis.builder.BaseBuilder.resolveAlias(BaseBuilder.java:127)
+	at org.apache.ibatis.builder.BaseBuilder.resolveClass(BaseBuilder.java:98)
+	... 87 more
+Caused by: java.lang.ClassNotFoundException: Cannot find class: com.access.portal.model.PortalPage
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:188)
+	at org.apache.ibatis.io.ClassLoaderWrapper.classForName(ClassLoaderWrapper.java:87)
+	at org.apache.ibatis.io.Resources.classForName(Resources.java:254)
+	at org.apache.ibatis.type.TypeAliasRegistry.resolveAlias(TypeAliasRegistry.java:110)
+	... 89 more
+2015-03-19 17:56:18  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-19 17:56:18  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Thu Mar 19 17:56:18 CST 2015]; root of context hierarchy
+2015-03-19 17:56:18  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-19 17:56:18  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-19 17:56:18  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-19 17:56:18  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-19 17:56:20  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-19 17:56:20  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-19 17:56:21  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-19 17:56:21  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-19 17:56:21  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@36b83e64: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,portalService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,portalPageMapper]; root of factory hierarchy
+2015-03-19 17:56:21  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-19 17:56:21  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-19 17:56:22  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898dq2c4nuebl98|2786f36, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898dq2c4nuebl98|2786f36, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-19 17:56:22  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-19 17:56:23  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4562 ms
+2015-03-19 17:56:23  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-19 17:56:23  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-19 17:56:23  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-19 17:56:23  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-19 17:56:23  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-19 17:56:23  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-19 17:56:23  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-19 17:56:23  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
+2015-03-19 17:58:15  INFO ContextLoader:273 - Root WebApplicationContext: initialization started
+2015-03-19 17:58:15  INFO XmlWebApplicationContext:510 - Refreshing Root WebApplicationContext: startup date [Thu Mar 19 17:58:15 CST 2015]; root of context hierarchy
+2015-03-19 17:58:15  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [applicationContext.xml]
+2015-03-19 17:58:15  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-config.xml]
+2015-03-19 17:58:15  INFO ClassPathBeanDefinitionScanner:231 - JSR-250 'javax.annotation.ManagedBean' found and supported for component scanning
+2015-03-19 17:58:15  INFO ClassPathBeanDefinitionScanner:239 - JSR-330 'javax.inject.Named' annotation found and supported for component scanning
+2015-03-19 17:58:17  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-database.xml]
+2015-03-19 17:58:17  INFO XmlBeanDefinitionReader:315 - Loading XML bean definitions from class path resource [app-context-bean.xml]
+2015-03-19 17:58:17  INFO PropertySourcesPlaceholderConfigurer:172 - Loading properties file from class path resource [jdbc.properties]
+2015-03-19 17:58:17  INFO AutowiredAnnotationBeanPostProcessor:140 - JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2015-03-19 17:58:17  INFO DefaultListableBeanFactory:596 - Pre-instantiating singletons in org.springframework.beans.factory.support.DefaultListableBeanFactory@376e4125: defining beans [org.springframework.context.support.PropertySourcesPlaceholderConfigurer#0,org.springframework.context.annotation.internalConfigurationAnnotationProcessor,org.springframework.context.annotation.internalAutowiredAnnotationProcessor,org.springframework.context.annotation.internalRequiredAnnotationProcessor,org.springframework.context.annotation.internalCommonAnnotationProcessor,org.springframework.context.annotation.internalPersistenceAnnotationProcessor,acAction,deviceService,portalService,org.springframework.context.annotation.CommonAnnotationBeanPostProcessor#0,org.springframework.aop.config.internalAutoProxyCreator,org.springframework.cache.annotation.AnnotationCacheOperationSource#0,org.springframework.cache.interceptor.CacheInterceptor#0,org.springframework.cache.config.internalCacheAdvisor,cacheManager,ehcache,dataSource,sqlSessionFactory,org.mybatis.spring.mapper.MapperScannerConfigurer#0,transactionManager,txAdvice,myPointcut,org.springframework.aop.support.DefaultBeanFactoryPointcutAdvisor#0,org.springframework.context.annotation.ConfigurationClassPostProcessor.importAwareProcessor,deviceMapper,portalPageMapper]; root of factory hierarchy
+2015-03-19 17:58:18  INFO MLog:80 - MLog clients using log4j logging.
+2015-03-19 17:58:18  INFO C3P0Registry:204 - Initializing c3p0-0.9.1 [built 16-January-2007 14:46:42; debug? true; trace: 10]
+2015-03-19 17:58:19  INFO AbstractPoolBackedDataSource:462 - Initializing c3p0 pool... com.mchange.v2.c3p0.ComboPooledDataSource [ acquireIncrement -> 3, acquireRetryAttempts -> 30, acquireRetryDelay -> 1000, autoCommitOnClose -> false, automaticTestTable -> C3P0TestTable, breakAfterAcquireFailure -> false, checkoutTimeout -> 0, connectionCustomizerClassName -> null, connectionTesterClassName -> com.mchange.v2.c3p0.impl.DefaultConnectionTester, dataSourceName -> 1hge1r898dq4u7q1km6ptk|71765de2, debugUnreturnedConnectionStackTraces -> false, description -> null, driverClass -> com.mysql.jdbc.Driver, factoryClassLocation -> null, forceIgnoreUnresolvedTransactions -> false, identityToken -> 1hge1r898dq4u7q1km6ptk|71765de2, idleConnectionTestPeriod -> 18000, initialPoolSize -> 3, jdbcUrl -> jdbc:mysql://192.168.10.127:3306/twifi_dev?useUnicode=true&characterEncoding=utf-8, lastAcquisitionFailureDefaultUser -> null, maxAdministrativeTaskTime -> 0, maxConnectionAge -> 0, maxIdleTime -> 25000, maxIdleTimeExcessConnections -> 0, maxPoolSize -> 15, maxStatements -> 0, maxStatementsPerConnection -> 0, minPoolSize -> 3, numHelperThreads -> 3, numThreadsAwaitingCheckoutDefaultUser -> 0, preferredTestQuery -> null, properties -> {user=******, password=******}, propertyCycle -> 0, testConnectionOnCheckin -> true, testConnectionOnCheckout -> true, unreturnedConnectionTimeout -> 0, usesTraditionalReflectiveProxies -> false ]
+2015-03-19 17:58:19  INFO EhCacheManagerFactoryBean:110 - Initializing EhCache CacheManager
+2015-03-19 17:58:19  INFO ContextLoader:313 - Root WebApplicationContext: initialization completed in 4343 ms
+2015-03-19 17:58:20  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-default.xml]
+2015-03-19 17:58:20  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts-plugin.xml]
+2015-03-19 17:58:20  INFO XmlConfigurationProvider:42 - Unable to locate configuration files of the name struts.xml, skipping
+2015-03-19 17:58:20  INFO XmlConfigurationProvider:42 - Parsing configuration file [struts.xml]
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (spring) for (com.opensymphony.xwork2.ObjectFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ActionFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ResultFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ConverterFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.InterceptorFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.factory.ValidatorFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.FileManagerFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.XWorkConverter)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.CollectionConverter)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.ArrayConverter)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.DateConverter)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.NumberConverter)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.impl.StringConverter)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionPropertiesProcessor)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionFileProcessor)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ConversionAnnotationProcessor)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterCreator)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.TypeConverterHolder)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.TextProvider)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.LocaleProvider)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.ActionProxyFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.conversion.ObjectTypeDeterminer)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.mapper.ActionMapper)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (jakarta) for (org.apache.struts2.dispatcher.multipart.MultiPartRequest)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.freemarker.FreemarkerManager)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.components.UrlRenderer)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.validator.ActionValidatorManager)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.ValueStackFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionProvider)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.reflection.ReflectionContextFactory)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.PatternMatcher)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.dispatcher.StaticContentLoader)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.UnknownHandlerManager)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (org.apache.struts2.views.util.UrlHelper)
+2015-03-19 17:58:20  INFO AbstractBeanSelectionProvider:42 - Choosing bean (struts) for (com.opensymphony.xwork2.util.TextParser)
+2015-03-19 17:58:20  INFO StrutsSpringObjectFactory:42 - Initializing Struts-Spring integration...
+2015-03-19 17:58:20  INFO SpringObjectFactory:42 - Setting autowire strategy to name
+2015-03-19 17:58:20  INFO StrutsSpringObjectFactory:42 - ... initialized Struts-Spring integration successfully
