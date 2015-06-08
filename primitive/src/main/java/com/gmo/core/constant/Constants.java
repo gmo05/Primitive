@@ -1,7 +1,5 @@
 package com.gmo.core.constant;
 
-import java.util.HashMap;
-import java.util.Map;
 import java.util.regex.Pattern;
 
 
@@ -149,87 +147,8 @@ public final class Constants {
 	public static final String THUMB_GENE_STD_RESULT ="wkhtmltoimage execution result: '0'";
 	public static final String THUMB_RESIZE_SUCCESS = "resize thumbnail successfully";
 	
-	/**
-	 * 用户状态
-	 */
-	public static final String TERMINALUSER_STATUS_ONLINE = "ONLINE";//正常
-	public static final String TERMINALUSER_STATUS_OFFLINE = "OFFLINE";//离线
-	public static final String TERMINALUSER_STATUS_LOCKED = "LOCKED";//锁定
-	
 
 
-	public static final String USER_STATUS_ONLINE = "ONLINE";
-	public static final String USER_STATUS_OFFLINE = "OFFLINE";
-
-	/**
-	 * 设备状态
-	 */
-	public static final String DEVICE_STATUS_ONLINE = "ONLINE";//正常
-	public static final String DEVICE_STATUS_OFFLINE = "OFFLINE";//离线
-	public static final String DEVICE_STATUS_LOCKED = "LOCKED";//锁定
-	
-	/**
-	 * 设备类型3.0
-	 * */
-	public static final String DEVICE_TYPE_BAS = "BAS";
-	public static final String DEVICE_TYPE_AC = "AC";
-	public static final String DEVICE_TYPE_FIT_AP = "FIT_AP";
-	public static final String DEVICE_TYPE_FAT_AP = "FAT_AP";
-	public static final String DEVICE_TYPE_VLAN = "VLAN";
-	
-	/**
-	 * 设备类型 2.8以前
-	 */
-	public static final String DEVICE_TYPE_CUSTOMIZED_AP = "CUSTOMIZED_AP";
-	public static final String DEVICE_TYPE_STANDARD_AP = "STANDARD_AP";
-	public static final String DEVICE_TYPE_THIRD_ACCESS = "THIRD_ACCESS";
-	
-	
-	/**
-	 * 用户认证日志状态
-	 */
-	public static final String TERMINALUSER_AUTH_LOG_STATUS_ONLINE = "ONLINE";//正常
-	public static final String TERMINALUSER_AUTH_LOG_STATUS_OFFLINE = "OFFLINE";//离线
-	
-
-	/**
-	 * 用户-设备状态
-	 */
-	public static final String TERMINALUSER_DEVICE_STATUS_NORMAL = "NORMAL";//正常
-	public static final String TERMINALUSER_DEVICE_STATUS_LOCKED = "LOCKED";//锁定
-	
-	/**
-	 * 数据库操作类型
-	 */
-	public static final String OPT_TYPE_INSERT = "Insert";
-	public static final String OPT_TYPE_UPDATE = "Update";
-	public static final String OPT_TYPE_DELETE = "Delete";
-	
-	/**
-	 * 表名
-	 */
-	public static final String AAA_VIRTUAL_DEVICE_TBL = "aaa_virtual_device";
-	public static final String ACCOUNT_HAS_TERMINAL_USER_TBL = "account_has_terminal_user";
-	public static final String COMPONENT_TBL = "component";
-	public static final String DEVICE_TBL = "device";
-	public static final String DEVICE_GROUP_TBL = "device_group";
-	public static final String DEVICE_HAS_DEVICE_GROUP_TBL = "device_has_device_group";
-	public static final String DEVICE_MODEL_TBL = "device_model";
-	public static final String LOCATION_TBL = "location";
-	public static final String PRODUCED_DEVICE_TBL = "produced_devices";
-	public static final String SSID_VIRTUAL_DEVICE_TBL = "ssid_virtual_device";
-	public static final String TERMINAL_USER_TBL = "terminal_user";
-	public static final String TERMINAL_USER_AUTHENTICATION_LOG_TBL = "terminal_user_authentication_log";
-	public static final String TERMINAL_USER_HAS_DEVICE_TBL = "terminal_user_has_device";
-	public static final String THIRD_PART_AUTH = "third_part_auth";
-	public static final String THIRD_PLATFORM = "third_platform";
-	public static final String USER_BLACKLIST = "user_blacklist";
-	public static final String USER_WHITELIST = "user_whitelist";
-	public static final String VLAN_VIRTUAL_DEVICE_TBL = "vlan_virtual_device";
-	
-	public static final String RADIUS_VIRTUAL_DEVICE_TBL = "radius_virtual_device";
-	public static final String FIT_AP_VIRTUAL_DEVICE_TBL = "fit_ap_virtual_device";
-	public static final String TELECOM_VIRTUAL_DEVICE_TBL = "telecom_virtual_device";
 	
 	
 	
@@ -240,116 +159,6 @@ public final class Constants {
 	
 	public static final String DEFAULT_API_EXPIRED_URL = "/api10/taskexpired.htm";
 	public static final String DEFAULT_API_CALLBACK_URL = "/api10/taskfinished.htm";
-	//#######################################
-	/**
-	 * 省份ID和省份名称键
-	 */
-	public static final String PROVINCE_ID = "PROVINCE_ID";
-	public static final String PROVINCE_NAME = "PROVINCE_NAME";
-	
-	public static final String ACCOUNT_GEO_LEVEL_1 = "1";//全国级
-	public static final String ACCOUNT_GEO_LEVEL_1_CN = "L1 - 全国";
-	public static final String ACCOUNT_GEO_LEVEL_2 = "2";//省级
-	public static final String ACCOUNT_GEO_LEVEL_2_CN = "L2 - 省级";
-	public static final String ACCOUNT_GEO_LEVEL_3 = "3";//市级
-	public static final String ACCOUNT_GEO_LEVEL_3_CN = "L3 - 市级";
-	public static final String ACCOUNT_GEO_LEVEL_4 = "4";//区级
-	public static final String ACCOUNT_GEO_LEVEL_4_CN = "L4 - 县区级";
-	
-	public static final String ACCOUNT_TYPE_SUPER_MAN_CN = "超级管理员";
-	public static final String ACCOUNT_TYPE_SUPER_MAN_EN = "SUPER_MAN";
-	public static final String ACCOUNT_TYPE_ADMINISTRATOR_CN = "管理员";
-	public static final String ACCOUNT_TYPE_ADMINISTRATOR_EN = "ADMINISTRATOR";
-	public static final String ACCOUNT_TYPE_REPRESENTATIVE_CN = "代理商"; 
-	public static final String ACCOUNT_TYPE_REPRESENTATIVE_EN = "REPRESENTATIVE"; 
-	public static final String ACCOUNT_TYPE_MERCHANT_CN = "商户";
-	public static final String ACCOUNT_TYPE_MERCHANT_EN = "MERCHANT";
-	public static final String ACCOUNT_TYPE_MANUFACTURER_CN = "设备厂商";
-	public static final String ACCOUNT_TYPE_MANUFACTURER_EN = "MANUFACTURER";
-	public static final String ACCOUNT_TYPE_DEVICE_ADMIN_CN = "设备管理员";
-	public static final String ACCOUNT_TYPE_DEVICE_ADMIN_EN = "DEVICE_ADMIN";
-
-	public static final String PERMISSION_SUBADMIN_MGMT_CN = "下属管理员管理";
-	public static final String PERMISSION_SUBADMIN_MGMT_EN = "SUBADMIN_MGMT";
-	public static final String PERMISSION_REPRESENTATIVE_MGMT_CN = "代理商管理";
-	public static final String PERMISSION_REPRESENTATIVE_MGMT_EN = "REPRESENTATIVE_MGMT";
-	public static final String PERMISSION_MERCHANT_MGMT_CN = "商户管理";
-	public static final String PERMISSION_MERCHANT_MGMT_EN = "MERCHANT_MGMT";
-	public static final String PERMISSION_MANUFACTURER_MGMT_CN = "设备厂商管理";
-	public static final String PERMISSION_MANUFACTURER_MGMT_EN = "MANUFACTURER_MGMT";
-	public static final String PERMISSION_DEVICE_ADMIN_MGMT_CN = "设备管理员管理";
-	public static final String PERMISSION_DEVICE_ADMIN_MGMT_EN = "DEVICE_ADMIN_MGMT";
-	public static final String PERMISSION_USER_MGMT_CN = "用户管理";
-	public static final String PERMISSION_USER_MGMT_EN = "USER_MGMT";
-	public static final String PERMISSION_DEVICE_MGMT_CN = "设备管理";
-	public static final String PERMISSION_DEVICE_MGMT_EN = "DEVICE_MGMT";
-	public static final String PERMISSION_PORTAL_MGMT_CN = "WiFi门户管理";
-	public static final String PERMISSION_PORTAL_MGMT_EN = "PORTAL_MGMT";
-	public static final String PERMISSION_PROFILE_MGMT_CN = "基本信息管理";
-	public static final String PERMISSION_PROFILE_MGMT_EN = "PROFILE_MGMT";
-	public static final String PERMISSION_SYSTEM_CFG_MGMT_CN = "系统配置管理";
-	public static final String PERMISSION_SYSTEM_CFG_MGMT_EN = "SYSTEM_CFG_MGMT";
-	public static final String PERMISSION_MANU_DEVICE_MGMT_CN = "厂商设备管理";
-	public static final String PERMISSION_MANU_DEVICE_MGMT_EN = "MANU_DEVICE_MGMT";
-	
-	
-	
-	/**
-	 * 服务端口号
-	 */
-	public static final String PLAT_HTTP_PORT = "httpPort";
-	
-	/**
-	 * method type
-	 */
-	
-	public static final String METHOD_TYPE_GET="GET";
-	public static final String METHOD_TYPE_POST="POST";
-	
-	/**
-	 * challenge result type
-	 */
-	public static final int TYPE_CHALLENGE_SUCCESS = 0;
-	public static final int	TYPE_CHALLENGE_DENIED = 1;
-	public static final int	TYPE_CHALLENGE_EXIST = 2;
-	public static final int	TYPE_CHALLENGE_WAIT = 3;
-	public static final int	TYPE_CHALLENGE_FAILED = 4;
-	
-	/**
-	 * 模块名称
-	 */
-	public static final String MODULE_THIRD_PARTY = "thirdParty";
-	
-	/**
-	 * 项目型平台第三方验证类型--0:短信认证，1：第三方认证
-	 */
-//	public static final String THIRD_PARTY_ACCESS_TYPE_MSG = "0";
-//	public static final String THIRD_PARTY_ACCESS_TYPE_THIRD_PARTY = "1";
-	public static final String[] THIRD_PARTY_ACCESS_TYPE = new String[]{"0","1"};
-	
-	/**
-	 * 项目型平台第三方认证结果--0：成功， 1：失败
-	 */
-//	public static final String THIRD_PARTY_ACCESS_SATTUS_SUCCESS = "0";
-//	public static final String THIRD_PARTY_ACCESS_STATUS_FAIL = "1";
-	public static final String[] THIRD_PARTY_ACCESS_STATUS = new String[]{"0","1"};
-
-	/**
-	 * TOB平台返回结果code
-	 */
-	public static final double TOB_RESULT_CODE_OK = 0.0;
-	public static final double TOB_RESULT_CODE_FAIL = 1.0;
-	
-	/**
-	 * 淘WIFI请求类型：上线和下线
-	 */
-	public static final String TAO_WIFI_REQUEST_TYPE_LOGIN = "login";
-	public static final String TAO_WIFI_REQUEST_TYPE_LOGOUT = "logout";
-	
-	/**
-	 * 淘WIFI用户默认免登陆时间--7天，单位分钟
-	 */
-	public static final String TAO_WIFI_DEFAULT_ONLINE_TIME = "10080";
 	
 	
 	/**
@@ -359,15 +168,4 @@ public final class Constants {
 		
 	}
 	
-	public static final Long TAO_WIFI_ID = 1L;
-	
-	/**
-	 * client_mq数据收集通道
-	 */
-	public static final String CLIENT_MQ_RECEVER = "S400";
-	
-	/**
-	 * 终端用户验证类型
-	 */
-	public static final String AUTH_TYPE_WECHAT = "WECHAT";
 }

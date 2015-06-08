@@ -1,4 +1,5 @@
 package com.gmo.base;
+
 import java.util.List;
 import javax.annotation.Resource;
 import org.apache.ibatis.session.SqlSessionFactory;
