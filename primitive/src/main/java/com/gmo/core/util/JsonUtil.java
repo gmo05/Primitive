@@ -8,7 +8,6 @@ import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
 
-import com.gmo.model.account.AccountWithBLOBs;
 
 public class JsonUtil {
 	public static final String YYYY_MM_DD = "yyyy-MM-dd";
@@ -387,23 +386,6 @@ public class JsonUtil {
 
 	    
 	public static void main(String[] args) {
-		AccountWithBLOBs account = new AccountWithBLOBs();
-		String[] tags = {"123","456"};
-		account.setTags(tags);
-		account.setCreateDatetime(new Date());
 		
-		try {
-			System.out.println(objectToJson(account));
-		} catch (NoSuchMethodException e) {
-			e.printStackTrace();
-		} catch (IllegalAccessException e) {
-			e.printStackTrace();
-		} catch (IllegalArgumentException e) {
-			e.printStackTrace();
-		} catch (InvocationTargetException e) {
-			e.printStackTrace();
-		} catch (Exception e) {
-			e.printStackTrace();
-		}
 	}
 }

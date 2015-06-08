@@ -11,18 +11,12 @@ import javax.annotation.Resource;
 import org.apache.commons.lang.StringUtils;
 import org.springframework.stereotype.Service;
 
-import com.gmo.dao.system.SystemVersionMapper;
-import com.gmo.dao.system.ThirdPartAuthMapper;
-import com.gmo.model.system.ThirdPartAuth;
 import com.gmo.core.constant.Constants;
 import com.gmo.core.util.PropertiesUtil;
 import com.gmo.dao.system.SystemConfigMapper;
-import com.gmo.model.system.Sms;
 import com.gmo.model.system.SystemConfig;
 import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
-import com.gmo.dao.system.ThirdPlatformMapper;
-import com.gmo.model.system.ThirdPlatform;
 
 @Service("systemService")
 public class SystemService {
@@ -31,65 +25,11 @@ public class SystemService {
 	@Resource(name = "systemConfigMapper")
 	private SystemConfigMapper systemConfigMapper;
 	
-	@Resource(name = "thirdPartAuthMapper")
-	private ThirdPartAuthMapper thirdPartAuthMapper;
 	
-	@Resource(name="thirdPlatformMapper")
-	private ThirdPlatformMapper thirdPlatformMapper;
-	 
-	@Resource(name="systemVersionMapper")
-    private SystemVersionMapper systemVersionMapper;
+
 	
-	/**
-	 * 获取所有的third_part_auth记录的ID
-	 * @return
-	 */
-	public List<String> getAllThirdPartAuthVirtualDeviceIds() {
-		List<String> virtualDeviceIds = null;
-		List<ThirdPartAuth> allAuths = this.getAllThirdPartAuth();
-		
-		if (allAuths != null && allAuths.size() > 0) {
-			virtualDeviceIds = new ArrayList<String>();
-			
-			for (ThirdPartAuth auth : allAuths) {
-				virtualDeviceIds.add(auth.getVirtualDeviceId());
-			}
-		}
 
-		return virtualDeviceIds;
-	}
-	
-	/**
-	 * 获取所有的third_part_auth记录
-	 * @return
-	 */
-	public List<ThirdPartAuth> getAllThirdPartAuth() {
-		return this.thirdPartAuthMapper.getAll();
-	}
-	
-	/*
-     * 
-     * 根据platformCode取得欢迎页的URL
-     */
-    public ThirdPlatform selectURLByCode(String platformCode){
-        return thirdPlatformMapper.selectURLByCode(platformCode);
-    }
-    
-	/**
-	 * 根据设备ID获取第三方设备对象
-	 * @param deviceId	设备ID
-	 * @return
-	 */
-	public ThirdPartAuth getThirdPartAuthByDeviceId(String deviceId) {
-		ThirdPartAuth thirdPartAuth = null;
-
-		if (StringUtils.isNotBlank(deviceId)) {
-			thirdPartAuth = this.thirdPartAuthMapper.selectByDeviceId(deviceId);
-		}
-
-		return thirdPartAuth;
-	}
-
+  
 	/**
 	 * 获取短信网关
 	 * @param phoneNumber
@@ -211,30 +151,6 @@ public class SystemService {
 		return systemConfigMapper.getAllSystemConfigs(null);
 	}
 
-	
-	 public ThirdPlatform selectByDomain(String domain){
-    	return thirdPlatformMapper.selectByDomain(domain);
-    }
-	 
-	 public String getLatestVersion(){
-		return systemVersionMapper.getLatestVersion();
-	}
-	 
- 	/**
-	 * 新增第三方app认证请求放行记录
-	 * @param domain
-	 * @return 
-	 */
-	public long saveThirdPartyLog(ThirdPartAuth record){
-		return this.thirdPartAuthMapper.insertThirdPartLog(record);
-	}
-	
-	/**
-	 * 根据id更新app认证请求放行记录的状态
-	 * @param domain
-	 * @return
-	 */
-	public void updateThirdPartyLogStatus(ThirdPartAuth record){
-		this.thirdPartAuthMapper.updateThirdPartLogById(record);
-	}
+
+
 }

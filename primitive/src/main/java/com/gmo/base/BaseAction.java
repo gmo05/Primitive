@@ -1,12 +1,8 @@
 package com.gmo.base;
 
-import java.io.IOException;
 import java.io.UnsupportedEncodingException;
-import java.net.InetAddress;
 import java.net.URLEncoder;
-import java.util.Date;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 import javax.annotation.Resource;
@@ -26,19 +22,9 @@ import org.apache.struts2.convention.annotation.ParentPackage;
 import org.apache.struts2.convention.annotation.Result;
 import org.apache.struts2.convention.annotation.Results;
 
-import com.gmo.model.account.AccountWithBLOBs;
-import com.gmo.model.system.ExceptionLogWithBLOBs;
-import com.gmo.core.util.*;
-import com.gmo.dao.system.ExceptionLogMapper;
-import com.gmo.model.user.TerminalUserAuthLog;
-import com.gmo.service.device.DeviceService;
 import com.gmo.service.system.SystemService;
 import com.opensymphony.xwork2.ActionContext;
 import com.opensymphony.xwork2.ActionSupport;
-import com.gmo.core.constant.Constants;
-import com.gmo.core.util.DateUtil;
-import com.gmo.core.util.PropertiesUtil;
-import com.gmo.core.util.StringUtil;
 import com.google.gson.Gson;
 
 @ParentPackage("json-default")
@@ -59,11 +45,6 @@ public class BaseAction extends ActionSupport implements ServletRequestAware,Ser
 	@Resource(name="systemService")
 	protected SystemService systemService;
 	
-	@Resource(name="deviceService")
-	protected DeviceService deviceService;
-	
-	@Resource(name="exceptionLogMapper")
-	protected ExceptionLogMapper exceptionLogMapper;
 	
 	//返回json数据的map
 	protected Map<String, Object> resultMap;
@@ -180,52 +161,6 @@ public class BaseAction extends ActionSupport implements ServletRequestAware,Ser
         rltMap.put("result", "OK");
     	return rltMap;
     }
-    
-    
-  
-
-   
-	
-	/**
-	 * 记录异常日志
-	 * @param moduleName
-	 * @param serviceName
-	 * @param sysErrorMssage
-	 */
-	public void saveExceptionLog(String moduleName, String serviceName, /*Map paramMap,*/ Exception e){
-		try {
-			ExceptionLogWithBLOBs log = new ExceptionLogWithBLOBs();
-			log.setModuleName(moduleName);
-			log.setServiceName(serviceName);
-			Map<String, Object> param = new HashMap<String, Object>();
-			AccountWithBLOBs optAccount = null;
-//	        AccountWithBLOBs optAccount = this.getCurLoginAccount();
-	        param.put("optAccountId", optAccount == null ? "" : optAccount.getId().toString());
-			param.put("parameter", this.request.getParameterMap());
-			param.put("method", this.request.getMethod());
-			param.put("protocol", this.request.getProtocol());
-			param.put("cookies", this.request.getCookies());
-			param.put("url", this.request.getHeader("referer"));
-
-			log.setParameter(gson.toJson(param));
-			log.setSysErrorMssage(e.toString() + "  " + StringUtil.getExceptionStackTrace(e));
-			
-			exceptionLogMapper.insertSelective(log);
-			
-			//send email to administrator
-			String subject = "IP: "+InetAddress.getLocalHost().getHostAddress()+", DATE: "+ DateUtil.getNow()+", ExceptionLogId: "+log.getId();
-			String emailContent = subject + "\n"
-					+ gson.toJson(param) + "\n" 
-					+ StringUtil.getExceptionStackTrace(e);
-//			
-//			systemService.saveEmailNotice(PropertiesUtil.confProperties.getProperty("emailNotice.sender.mail"), 
-//					PropertiesUtil.confProperties.getProperty("emailNotice.receiver.mail"),
-//					null, null, subject, emailContent, Long.parseLong("1"));
-		} catch (Exception e2) {
-			e2.printStackTrace();
-		}
-		
-	}
 	
 	public static void main(String[] args) {
 	}
